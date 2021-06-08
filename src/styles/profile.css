@@ -1,0 +1,66 @@
+.container__profile {
+  width: 225px;
+  margin: 3% 12px;
+  padding: 3% 0;
+  float: left;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  transition: ease 0.3s;
+}
+
+.container__profile:hover {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.container__profile:hover .image {
+  width: 73%;
+}
+.container__profile:hover .container__image {
+  padding: 0 0 9% 0;
+}
+
+.container__image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 12% 0;
+  min-height: 185px;
+  transition: ease 0.3s;
+}
+
+.image {
+  border-radius: 50%;
+  width: 70%;
+  transition: ease 0.3s;
+}
+
+.container__textArea {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container__textArea h3 {
+  font-weight: bold;
+  font-size: 1em;
+  transition: ease 0.3s;
+}
+
+@media only screen and (max-width: 1016px) {
+  .container__profile {
+    width: 25%;
+    margin: 3% 4%;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .container__profile {
+    width: 41%;
+    margin: 3% 4%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container__profile {
+    width: 80%;
+    margin: 3% auto;
+  }
+}

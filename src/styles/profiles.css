@@ -1,0 +1,13 @@
+.container__profiles {
+  width: 100%;
+  float: left;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  .container__profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
